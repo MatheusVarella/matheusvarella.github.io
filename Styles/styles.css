@@ -234,6 +234,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .contentContato .images .contentImage a {
