@@ -1,0 +1,244 @@
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--grey1-color);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.container .cabecalhoItem {
+  background: var(--purple-font);
+  margin: 1rem 1rem;
+  padding: 0.3rem;
+  border-radius: 10px;
+  transition: 1000ms;
+  margin-top: 10px;
+}
+
+.container .cabecalhoItem .link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.container .cabecalhoItem:hover {
+  background: var(--hover-color);
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.perfilPresentation {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  width: 90vw;
+  border-radius: 1rem;
+  background: white;
+}
+
+.perfilPresentation .presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.perfilPresentation .presentation h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 5rem;
+}
+
+.perfilPresentation .presentation h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+}
+
+.perfilPresentation .perfil {
+  margin: 2rem;
+  padding: 10px;
+  background: var(--purple-font);
+  border-radius: 50%;
+  transition: 1000ms;
+}
+
+.perfilPresentation .perfil:hover {
+  padding: 0;
+}
+
+/*
+.perfilPresentation .perfil .foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; 
+  background-image: url(/images/MatheusVarella.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  transition: 1000ms;
+}
+
+.perfilPresentation .perfil .foto:hover {
+  width: 230px;
+  height: 230px;
+  padding: 10px;
+}
+*/
+.perfilPresentation .perfil .foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  background-image: url(/images/MatheusVarella2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40%;
+  transition: 1000ms;
+}
+
+.perfilPresentation .perfil .foto:hover {
+  width: 238px;
+  height: 238px;          
+}
+
+.contentAll {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 1rem;
+  width: 90vw;
+  border-radius: 1rem;
+  background: white;
+}
+
+.contentAll .title {
+  margin: 1.5rem;
+}
+
+.contentAll #images {
+  display: flex;
+  margin: 20px;
+}
+
+.contentAll #images .image1 {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 30%; 
+  background-image: url(/images/BloqueioOposto.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40%;
+  transition: 1000ms;
+}
+
+.contentAll #images .image2 {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 30%; 
+  background-image: url(/images/AtaqueCentral.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40%;
+  transition: 1000ms;
+}
+
+.contentAll #images .image3 {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 30%; 
+  background-image: url(/images/JornalViceCampeao.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40%;
+  transition: 1000ms;
+}
+
+.contentAll #images .image1:hover {
+  width: 330px;
+  height: 230px;
+}
+
+.contentAll #images .image2:hover {
+  width: 330px;
+  height: 230px;
+}
+
+.contentAll #images .image3:hover {
+  width: 330px;
+  height: 230px;
+}
+
+.contentAll .video {
+  border-radius: 20px;
+  width: 200px;
+  height: 112px;
+  transition: 1000ms;
+}
+
+.contentAll .video:hover {
+  width: 500px;
+  height: 275px;
+}
+
+.contentAll .content .contentTraining {
+  list-style: none;
+}
+
+.contentAll .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: 90%;
+}
+
+.contentAll .images .contentImage {
+  margin: 10px;
+  padding: 10px;
+}
+.contentAll .images .contentImage a{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentContato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 1rem;
+  width: 90vw;
+  border-radius: 1rem;
+  background: white;
+}
+
+.contentContato .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contentContato .images .contentImage a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
