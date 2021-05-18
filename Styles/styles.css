@@ -248,7 +248,7 @@
 .contentContato .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 50%
+  width: 50%;
 }
 
 .contentContato .images .contentImage a {
@@ -256,7 +256,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 30px;
 }
 
 .contentContato .images .contentFooter i {
@@ -268,5 +268,6 @@
 
 .contentContato .images .contentFooter i:hover {
   font-size: 5rem;
-  margin-top: -20px;
+  margin-top: -10px;
+  margin-bottom: 15px;
 }
