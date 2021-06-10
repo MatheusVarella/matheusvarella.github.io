@@ -1,0 +1,38 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.page-content .download {
+  display: flex;
+  justify-content: space-between;
+    
+  width: 80%;
+  margin: 2rem;
+}
+
+.page-content .download .download-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.page-content .download .download-item a {
+  background: var(--purple-font);
+  color: var(--purple-font2);
+  padding: 1rem;
+  border-radius: 8px;
+
+  transition: 500ms;
+}
+
+.page-content .download .download-item a:hover {
+  background: var(--purple-font);
+  color: white;
+}
