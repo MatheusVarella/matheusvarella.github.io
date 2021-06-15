@@ -78,3 +78,9 @@
 .video:hover {
   width: 80vw;
 }
+
+@media (max-width: 870px) {
+  .page-content .download .download-itens {
+    flex-direction: column;
+  }
+}
