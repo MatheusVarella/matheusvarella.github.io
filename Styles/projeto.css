@@ -10,17 +10,26 @@
 
 .page-content .download {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
     
   width: 80%;
   margin: 2rem;
+}
+
+.page-content .download .download-itens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .page-content .download .download-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  margin: 1rem;
 }
 
 .page-content .download .download-item a {
@@ -35,4 +44,37 @@
 .page-content .download .download-item a:hover {
   background: var(--purple-font);
   color: white;
+}
+
+.page-content .instruction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-content .instruction .instructional-videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.page-content .instruction .instructional-videos .video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.video {
+  width: 300px;
+  border-radius: 1rem;
+  transition: 800ms;
+}
+
+.video:hover {
+  width: 80vw;
 }
