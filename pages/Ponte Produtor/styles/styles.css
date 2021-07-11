@@ -1,0 +1,71 @@
+header {
+  background-color: #EEEEEE;
+  height: 70px;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  filter: drop-shadow(0px 3px 8px rgba(2, 3, 20, 0.25));
+}
+
+header #top {
+  height: 3rem;
+  width: 8rem;  
+
+}
+
+.link {
+  text-decoration: none;
+  background-color: var(--button-color);
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: white;
+  font-size: 1.3rem;
+
+  transition: 500ms;
+}
+.link i{
+  font-size: 1.2rem;
+}
+
+.link:hover{
+  color: rgba( 255, 255, 255, 0.7);
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+  height: calc(100vh - 70px);
+  width: 100%;
+
+  background-image: url("../image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dashboard p {
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.dashboard #project {
+  height: 3rem;
+  width: 14rem;
+}
