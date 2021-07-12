@@ -1,0 +1,137 @@
+body {
+  background-color: #CCCCCC;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  height: 40px;
+  background-color: white;
+  filter: drop-shadow(0px 1px 4px rgba(2, 3, 20, 0.25));
+}
+
+header a i {
+  font-size: 1.2rem;
+  color: var(--button-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+  background-color: white;
+  margin: 3rem auto;
+  padding: 5rem 0 5rem 0;
+  width: 80vw;
+  height: 200px;
+  border-radius: 8px;
+  filter: drop-shadow(0px 1px 4px rgba(2, 3, 20, 0.25));
+}
+
+.form .text {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.form .text a {
+    margin-top: 8px;
+}
+
+.form h4 {
+    margin: 4px 0 4px 0;
+}
+
+.form input {
+  width: 60vw;
+  padding: 4px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.form .text a {
+    font-size: 12px;
+}
+
+.form .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 1rem;
+  width: 60vw;
+}
+
+.form .buttons #login {
+  background-color: var(--button-color);
+  color: white;
+}
+
+.form .buttons #cadastro {
+  background-color: white;
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+.form .buttons #cadastro a:visited {
+  color: var(--button-color);
+}
+
+.form .button {
+  border: none;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+
+  padding: 0.5rem;
+}
+
+.form .button a {
+  text-decoration: none;
+}
+
+.form .cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+
+  margin: 50px auto;
+  width: 80vw;
+  background-color: white;
+  filter: drop-shadow(0px 1px 4px rgba(2, 3, 20, 0.25));
+}
+
+.form #cadastrar {
+  margin-top: 1rem;
+  background-color: var(--button-color);
+  color: white;
+}
+
+#form-cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+  background-color: white;
+  margin: 3rem auto;
+  padding: 8rem 0 8rem 0;
+  width: 80vw;
+  height: 200px;
+  border-radius: 8px;
+  filter: drop-shadow(0px 1px 4px rgba(2, 3, 20, 0.25));
+}
