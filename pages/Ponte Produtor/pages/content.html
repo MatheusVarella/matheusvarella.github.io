@@ -12,6 +12,14 @@
 	<link rel="stylesheet" href="../styles/content.css">
 	<script src="https://kit.fontawesome.com/054f661e19.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $("button").click(function(){
+        $(this).siblings(".content").slideToggle( );
+        $(this).children(".fa-arrow-down").toggle();
+      })
+    });
+  </script>
 </head>
 <body>
   <header>
@@ -169,11 +177,5 @@
       </div>
     </div>
   </section>
-  <script>
-    $( "button" ).click(function() {
-      $( ".content" ).slideToggle( "slow" );
-      $( ".fa-arrow-down" ).toggle();
-    });
-  </script>
 </body>
 </html>
