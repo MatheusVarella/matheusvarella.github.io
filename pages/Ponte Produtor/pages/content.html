@@ -15,8 +15,13 @@
   <script>
     $(function(){
       $("button").click(function(){
-        $(this).siblings(".content").slideToggle( );
-        $(this).children(".fa-arrow-down").toggle();
+        $(this).siblings(".content").slideToggle("slow");
+        $(this).children(".fa-arrow-down").toggle("slow");
+      })
+    });
+    $(function(){
+      $("button").click(function(){
+        $(this).siblings(".container").slideToggle("slow");
       })
     });
   </script>
@@ -28,154 +33,159 @@
     </a>
     <h1>Conhecimentos gerais</h1>
   </header>
-
-  <section class="container">
-    <h2 class="title">
-      Ovinos
-    </h2>
-    <div class="content-button">
-      <button class="button-container" >
-        Reprodução
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Machos</li>
-          <li>Fêmeas</li>
-        </ul>
+  <div class="buttons">
+    <button class="button" >
+      Conhecimentos gerais
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <section class="container">
+      <h2 class="title">
+        Ovinos
+      </h2>
+      <div class="content-button">
+        <button class="button-container" >
+          Reprodução
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Machos</li>
+            <li>Fêmeas</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Fases
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Cordeiro(a) do nascimento até o desmame </li>
-          <li>Borrego(a) após o desmame até o início da reprodução ou parição</li>
-          <li>Ovelha fêmea após a parição</li>
-          <li>Carneiro macho já iniciado a reprodução</li>
-          <li>Capões machos castrados</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Fases
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Cordeiro(a) do nascimento até o desmame </li>
+            <li>Borrego(a) após o desmame até o início da reprodução ou parição</li>
+            <li>Ovelha fêmea após a parição</li>
+            <li>Carneiro macho já iniciado a reprodução</li>
+            <li>Capões machos castrados</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Alimentação
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Colostro</li>
-          <li>Leite</li>
-          <li>Silagem</li>
-          <li>Feno</li>
-          <li>Minerais</li>
-          <li>Água</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Alimentação
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Colostro</li>
+            <li>Leite</li>
+            <li>Silagem</li>
+            <li>Feno</li>
+            <li>Minerais</li>
+            <li>Água</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Doenças
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Nome</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Doenças
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Nome</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Alimentação
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Água</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Alimentação
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Água</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="container">
-    <h2 class="title">
-      Caprinos
-    </h2>
-    <div class="content-button">
-      <button class="button-container" >
-        Reprodução
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Machos</li>
-          <li>Fêmeas</li>
-        </ul>
+    </section>
+    <section class="container">
+      <h2 class="title">
+        Caprinos
+      </h2>
+      <div class="content-button">
+        <button class="button-container" >
+          Reprodução
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Machos</li>
+            <li>Fêmeas</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Fases
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Cordeiro(a) do nascimento até o desmame </li>
-          <li>Borrego(a) após o desmame até o início da reprodução ou parição</li>
-          <li>Ovelha fêmea após a parição</li>
-          <li>Carneiro macho já iniciado a reprodução</li>
-          <li>Capões machos castrados</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Fases
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Cordeiro(a) do nascimento até o desmame </li>
+            <li>Borrego(a) após o desmame até o início da reprodução ou parição</li>
+            <li>Ovelha fêmea após a parição</li>
+            <li>Carneiro macho já iniciado a reprodução</li>
+            <li>Capões machos castrados</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Alimentação
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Colostro</li>
-          <li>Leite</li>
-          <li>Silagem</li>
-          <li>Feno</li>
-          <li>Minerais</li>
-          <li>Água</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Alimentação
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Colostro</li>
+            <li>Leite</li>
+            <li>Silagem</li>
+            <li>Feno</li>
+            <li>Minerais</li>
+            <li>Água</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Doenças
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Nome</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Doenças
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Nome</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="content-button">
-      <button class="button-container" >
-        Alimentação
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      <div class="content" >
-        <ul>
-          <li>Água</li>
-        </ul>
+  
+      <div class="content-button">
+        <button class="button-container" >
+          Alimentação
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Água</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </body>
 </html>
