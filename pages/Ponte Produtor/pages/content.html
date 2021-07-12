@@ -24,6 +24,11 @@
         $(this).siblings(".container").slideToggle("slow");
       })
     });
+    $(function(){
+      $("button").click(function(){
+        $(this).siblings(".content-object").slideToggle("slow");
+      })
+    });
   </script>
 </head>
 <body>
@@ -75,7 +80,28 @@
             <li>Estudante de Agronimia pela Univel</li>
           </ul>
         </div>
+    </div>
+  </div>
+  <div class="buttons">
+    <button class="button" >
+      Objetivos
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <section class="container">
+      <div class="content-button">
+        <div class="content-object" >
+          <ul>
+            <li>Facilitar a comunicação;</li>
+            <li>Localizar profissionais aptos para ajudar o produtor;</li>
+            <li>Melhorar o acesso a informações;</li>
+            <li>Criar índices de avaliações, tanto dos animais, quanto dos seus produtores e propriedades;</li>
+            <li>Ajudar na evolução da área de Ovinocultura e Caprinocultura;</li>
+            <li>Procurar ampliar os horizontes e dar mais visibilidade para as mesmas;</li>
+            <li>Auxiliar na prevenção e controle da verminose.</li>
+          </ul>
+        </div>
       </div>
+    </section>
   </div>
   <div class="buttons">
     <button class="button" >
@@ -134,7 +160,7 @@
   
       <div class="content-button">
         <button class="button-container" >
-          Doenças
+          Plantas tóxicas
           <i class="fas fa-arrow-down"></i>
         </button>
         <div class="content" >
@@ -146,12 +172,24 @@
   
       <div class="content-button">
         <button class="button-container" >
-          Alimentação
+          Vacinação
           <i class="fas fa-arrow-down"></i>
         </button>
         <div class="content" >
           <ul>
-            <li>Água</li>
+            <li>...</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-button">
+        <button class="button-container" >
+          Infraestrutura
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Cabanhas</li>
           </ul>
         </div>
       </div>
@@ -175,16 +213,31 @@
   
       <div class="content-button">
         <button class="button-container" >
+          Intersexo
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content" >
+          <ul>
+            <li>Um animal intersexo é aquele que apresenta tanto características femininas quanto masculinas</li>
+            <li>Prevenção: como está associada à condição mocho, basta que um dos genitores seja chifrudo
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-button">
+        <button class="button-container" >
           Fases
           <i class="fas fa-arrow-down"></i>
         </button>
         <div class="content" >
           <ul>
-            <li>Cordeiro(a) do nascimento até o desmame </li>
-            <li>Borrego(a) após o desmame até o início da reprodução ou parição</li>
-            <li>Ovelha fêmea após a parição</li>
-            <li>Carneiro macho já iniciado a reprodução</li>
-            <li>Capões machos castrados</li>
+            <li>Cabrito(a) do nascimento até a desmama</li>
+            <li>Marrã fêmea após o desmame, antes da parição</li>
+            <li>Bodete macho após o desmame até o início da reprodução</li>
+            <li>Cabra fêmea após a parição</li>
+            <li>Bode macho já iniciado a reprodução</li>
+            <li>Rufiões ou Capões machos castrados</li>
           </ul>
         </div>
       </div>
@@ -220,12 +273,12 @@
   
       <div class="content-button">
         <button class="button-container" >
-          Alimentação
+          Infraestrutura
           <i class="fas fa-arrow-down"></i>
         </button>
         <div class="content" >
           <ul>
-            <li>Água</li>
+            <li>Aprisco</li>
           </ul>
         </div>
       </div>
