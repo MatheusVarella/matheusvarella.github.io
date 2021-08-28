@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infografico</title>
+
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    
+    <canvas class="line-chart"></canvas>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+
+    <script>
+        var context = document.getElementsByClassName("line-chart");
+
+        var chartGraph = new Chart(context, {
+            type: 'line',
+            data: {
+                labels: ["teste", "tests"],
+                datasets: [{
+                    label: "TESTANDO",
+                    data: [1,2,3,4,5,6],
+                    borderWidth: 6,
+                    borderColor: 'rgba(77,166,253,0.85)',
+                    backgroundColor: 'transparent',
+                }]
+            },
+        options: {
+            title: {
+                display: true,
+                fontSize: 20,
+                text: "GRAFICO DE TEMPERATURA",
+            },
+            labels: {
+                fontStyle: "bold",
+            }
+        }
+    });
+    </script>
+</body>
+</html>
