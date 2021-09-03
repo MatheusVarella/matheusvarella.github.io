@@ -14,7 +14,6 @@ const temp_unit = document.querySelector('.container-temp span');
 const weather_t = document.querySelector('.weather');
 const search_input = document.querySelector('.form-control');
 const search_button = document.querySelector('.btn');
-const low_high = document.querySelector('.low-high');
 
 window.addEventListener('load', () => {
     
@@ -96,8 +95,6 @@ function displayResults(weather) {
 
     weather_tempo = weather.weather[0].description;
     weather_t.innerText = capitalizeFirstLetter(weather_tempo)
-
-    low_high.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 }
 
 function dateBuilder(d) {
@@ -131,47 +128,3 @@ function changeTemp() {
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
-
-
-
-
-
-/*
-async function get(url) {
-    let request = await new XMLHttpRequest();
-    request.open("GET", url, false);
-    request.send();
-    return request.responseText;
-}
-
-async function consulta(dataInicial, dataFinal) {
-    data = await get("https://apitempo.inmet.gov.br/estacao/diaria/" + $("dataInicial").val() + "/" + $("dataFinal").val() + "/A820");
-    format = JSON.parse(data);
-
-    return format;
-}
-
-function dados() {    
-    data = consulta();
-    
-    console.log(data);
-    
-    dataMedicao = [];
-    
-    dataTemperaturaMedia = [];
-    
-    dataTemperaturaMaxima = [];
-    
-    dataTemperaturaMinima = [];
-    
-    data.forEach(element => {
-        dataMedicao.push(element.DT_MEDICAO);
-        dataTemperaturaMaxima.push(parseFloat(element.TEMP_MAX));
-        dataTemperaturaMedia.push(parseFloat(element.TEMP_MED));
-        dataTemperaturaMinima.push(parseFloat(element.TEMP_MIN));
-    });
-
-    return [
-        dataMedicao, dataTemperaturaMedia, dataTemperaturaMaxima, dataTemperaturaMinima
-    ]
-}*/

@@ -1,0 +1,232 @@
+:root{
+    --button-color: #32CD30;
+    --header: #2aee27;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header);
+    height: 80px;
+    padding: 0.5rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.header img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.content-card {
+    width: 80vw;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px center;
+    border: none;
+    border-radius: 1rem;
+    background-color: #EEEEEE;
+
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.card .card-body .container-temp {
+    display: flex;
+}
+
+.card .card-footer {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 2rem;
+}
+
+.card .card-footer .text {
+    font-size: 20px;
+}
+
+.card .card-footer .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+
+    margin-top: 2rem;
+}
+
+.card .card-footer .input-group .form-control {
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+}
+
+.card .card-footer .input-group .btn {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    margin-left: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.2rem;
+}
+
+.container-graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 3rem auto;
+}
+
+.container-graph .content-text {
+    width: 80%;
+    text-align: center;
+}
+
+.container-graph .content-text p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.content-canvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+
+    width: 65%; 
+    height: 350px; 
+}
+
+.content-canvas .content-canvas-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem auto;
+    width: 80%;
+}
+  
+.buttons .button {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--button-color);
+    filter: drop-shadow(0px 1px 4px rgba(2, 3, 20, 0.25));
+  
+    padding: 10px;
+    width: 70%;
+  
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.content-button {
+    border: solid 2px var(--button-color);
+    border-radius: 8px;
+    margin-top: 10px;
+  
+    filter: drop-shadow(0px 1px 4px rgba(2, 3, 20, 0.25));
+  
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    width: 700px;
+}
+  
+.button-container {
+    border: 0;
+    background-color: white;
+    padding: 10px;
+    width: 600px;
+  
+    color: var(--button-color);
+    font-size: 1.3rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+  
+.content {
+    display: none;
+    border-top: solid 2px #BBBBBB;
+    width: 90%;
+  
+    color: var(--button-color);
+  
+    font-size: 1.2rem;
+    padding: 12px 0 12px 20px;
+}
+
+.content .list-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .list-img img {
+    width: 200px;
+    border-radius: 2rem;
+    margin-left: 20px;
+}
+
+footer {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 150px;
+    width: 80%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--button-color);
+}
