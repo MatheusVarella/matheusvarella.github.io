@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fredoka+One&family=Lobster&family=Righteous&family=Roboto:wght@500;700&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/content.css">
+  <script src="https://kit.fontawesome.com/054f661e19.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("button").click(function () {
+        $(this).siblings(".content").slideToggle("slow");
+        $(this).children(".fa-arrow-down").toggle("slow");
+      })
+    });
+    $(function () {
+      $("button").click(function () {
+        $(this).siblings(".container").slideToggle("slow");
+      })
+    });
+    $(function () {
+      $("button").click(function () {
+        $(this).siblings(".content-object").slideToggle("slow");
+      })
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <a href="../point-produtor.html">
+      <i class="fas fa-arrow-left"></i>
+    </a>
+  </header>
+  <div class="buttons">
+    <button class="button">
+      Quem somos?
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <section class="container">
+      <div class="content-button">
+        <button class="button-container">
+          Bianca Estela Stein
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content">
+          <ul>
+            <li>Formada em Técnico em Agropecuária</li>
+            <li>Estudante de Zootecnia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-button">
+        <button class="button-container">
+          Livya Giuliani
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content">
+          <ul>
+            <li>Estudante de Zootecnia</li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </div>
+  <div class="buttons">
+    <button class="button">
+      Objetivos
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <section class="container">
+      <div class="content-button">
+        <div class="content-object">
+          <ul>
+            <li>Facilitar a comunicação;</li>
+            <li>Localizar profissionais aptos para ajudar o produtor;</li>
+            <li>Melhorar o acesso a informações;</li>
+            <li>Criar índices de avaliações, tanto dos animais, quanto dos seus produtores e propriedades;</li>
+            <li>Procurar ampliar os horizontes e dar mais visibilidade para as mesmas;</li>
+            <li>Auxiliar na prevenção e controle da verminose.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="buttons">
+    <button class="button">
+      Profissionais
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <section class="container">
+      <div class="content-button">
+        <button class="button-container">
+          Técnicos em Agropecuária
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content">
+          <ul>
+            <li>Como ajudam?</li>
+            <li>Nomes</li>
+            <li>Mapa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-button">
+        <button class="button-container">
+          Médicos Veterinários
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content">
+          <ul>
+            <li>Como ajudam?</li>
+            <li>Nomes</li>
+            <li>Mapa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-button">
+        <button class="button-container">
+          Zootecnista
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <div class="content">
+          <ul>
+            <li>Como ajudam?</li>
+            <li>Nomes</li>
+            <li>Mapa</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="buttons">
+    <button class="button">
+      Mapa
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <section class="container">
+      <div class="content-button">
+        <div class="content-object">
+          <ul>
+            <li>Produtores</li>
+            <li>Abatedouros</li>
+            <li>Agropecuárias</li>
+            <li>Cooperativas</li>
+            <li>Consumidores</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
