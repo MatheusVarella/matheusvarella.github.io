@@ -30,6 +30,12 @@
   margin-top: 10px;
 }
 
+@media (max-width: 1150px) {
+  .container .cabecalhoItem {
+    display: none;
+  }
+}
+
 .container .cabecalhoItem .link {
   color: white;
   font-size: 0.99rem;
